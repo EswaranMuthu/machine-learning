@@ -4,9 +4,9 @@ import csv
 from pandas.io.json import json_normalize
 import pandas as pd
 import re
-#path = 'c:\\Users\\Joe.Bell\\Desktop\\antibody'
-path = 'c:\\Users\\Joe.Bell\\Desktop\\Mihran_ Scrape\\BD\\bdbio\\processed'
-with open('c:\\Users\\Joe.Bell\Desktop\\publications.csv', "w+", newline='') as pubs, open('c:\\Users\\Joe.Bell\Desktop\\dilutions.csv', "w+", newline='') as dils:
+#path = 'c:\\Users\\eswaran.muthu\\Desktop\\IOT'
+path = 'c:\\Users\\eswaran.muthu\\Desktop\\IOT\\metrics\\bdbio\\processed'
+with open('c:\\Users\\eswaran.muthu\Desktop\\publications.csv', "w+", newline='') as pubs, open('c:\\Users\\eswaran.muthu\Desktop\\dilutions.csv', "w+", newline='') as dils:
     fieldnames_dils = ['sku','application','dilution']
     fieldnames_pubs = ['sku','title', 'pubMedURL']
     header = csv.writer(dils)
