@@ -1,11 +1,11 @@
 # machine-learning
 Data explore using python and Pandas
 
-#High level degisn :
+# High level design :
 ![alt text](https://github.com/EswaranMuthu/machine-learning/blob/master/dataExplore.png)
 
 
-#Problem statement : Recommend product to the customer.
+# Problem statement : Recommend product to the customer.
 
 Existing solution : get input from orders table, find all placed orders use R / Python to slice and dice the data with dataframe and copy the out put to csv file. 
 
